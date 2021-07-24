@@ -119,7 +119,7 @@ function insert_or_update($import_data)
 
 
 function mk_import_events() {
-    $json_url = "http://wordpress.local/wp-content/themes/twentytwenty/content.json";
+    $json_url = get_site_url() . "/wp-content/themes/twentytwenty/content.json";
     $import_data = json_decode( file_get_contents( $json_url ));
     insert_or_update( $import_data );
 }
