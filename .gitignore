@@ -1,0 +1,66 @@
+# OS Trash
+._*
+.DS_Store
+.AppleDouble
+.LSOverride
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# IDE
+.idea/
+.idea/*
+.grunt
+node_modules
+bower_components
+*.sublime-workspace
+sftp-config.json
+
+# Wordpress Core
+gc-audit/
+wp-admin/
+wp-admin/*.php
+wp-includes/
+wp-includes/*.php
+*.log
+.htaccess
+sitemap.xml
+sitemap.xml.gz
+wp-config.php
+/robots.txt
+/index.html
+/readme.html
+/license.txt
+/*.php
+/wp-content/themes/*
+/wp-content/plugins/*
+/wp-content/index.php
+/wp-content/uploads/
+/wp-content/wflogs/*
+/wp-content/ai1wm-backups/
+/.well-known
+
+#### --------------------- DO NOT MODIFY ABOVE -----------------------####
+
+/arts
+/sw.js
+/wp-content/themes/meritdirect/package-lock.json
+
+# Themes whitelist
+!/wp-content/themes/twentytwenty
+!/wp-content/themes/twentytwenty/
+!/wp-content/plugins/advanced-custom-fields
+
