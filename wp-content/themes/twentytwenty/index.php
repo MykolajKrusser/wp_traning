@@ -163,6 +163,22 @@ get_header();
                 <p>
                     <?php the_field('timestamp');?>
                 </p>
+                <p>
+                    <?php
+                        $start = date( 'n/j/Y', strtotime( get_field('timestamp') ) );
+                        $today = date( 'n/j/Y' );
+
+                        $start      = new \DateTime( $start );
+                        $end        = new \DateTime( $today );
+
+                        $difference = $start->diff( $end );
+                        if($difference->days > 1 ){
+                            echo 'Time remaining '. $difference->days . ' days';
+                        }else{
+                            echo 'Time remaining '. $difference->days . ' day';
+                        }
+                    ?>
+                </p>
             </div>
 
             <?php
