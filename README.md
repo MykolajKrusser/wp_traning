@@ -7,7 +7,7 @@ and
 
 additionaly added plugins: 
 `wp-content/plugins/advanced-custom-fields for` custom meta fields - setup:
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/ACF.jpg?raw=true)
+![alt text](https://github.com/MykolajKrusser/wp_traning/blob/master/ACF.jpg?raw=true)
 
 I use win10 for this task and I don't find a good/fast way to install WP-CLI, so
 for the main import function, I use just WP init action here `wp-content/themes/twentytwenty/functions.php:61`
